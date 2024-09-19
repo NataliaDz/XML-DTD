@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="catalogoXSD.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<catalogo>
+    <!-- Crear etiqueta vendedor-->
+     <vendedores>
+        <vendedor idvendedor="V01" fechalta="2024-09-16">
+            <nombre>Julia Marrero</nombre>
+            <departamento>Marketing</departamento>
+        </vendedor>
+       
+        <vendedor idvendedor="V02" fechalta="2024-09-12">
+            <nombre>Jose Ramos</nombre>
+            <departamento>Marketing</departamento>
+        </vendedor>
+    </vendedores>
+</catalogo>

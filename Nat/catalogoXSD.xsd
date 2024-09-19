@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="catalogo">
+       <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendedores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="vendedor" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="departamento" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="idvendedor" type="xs:ID" use="required"/>
+                                    <xs:attribute name="fechalta" type="xs:date" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+       </xs:complexType>
+       
+
+    </xs:element>
+</xs:schema>
